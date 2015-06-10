@@ -1,0 +1,30 @@
+body {
+	background-color: linen;
+}
+.sidebar {
+	background-color: ivory;
+	margin-left: 5px;
+	top: 10%;
+	width: 10vw;
+	height: 40vw;
+	margin-right: 10px;
+	font-size: 25px;
+	border: groove;
+	border-color: ivory;
+	border-radius: 25px;
+	position: fixed;
+	text-align: center;
+}
+.sidebarlink {
+	font-size: 3vw;
+	color: green;
+	border-bottom: solid;
+	float: bottom;
+}
+a:link {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+	margin: 5px;
+}
