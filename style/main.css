@@ -12,11 +12,11 @@ header {
 	color: white;
 }
 header h1{
-	float: left;
+	text-align: left;
 	font-size: 4.5vw;
 	font-weight: 100;
 	letter-spacing: 2vw;
-	margin-left: 3vw;
+	margin-left: 2.5vw;
 	margin-top: .5vw;
 }
 .subheader {
@@ -25,13 +25,14 @@ header h1{
 	font-family: "Ariel", sans-serif;
 	color: darkgrey;
 	/*width: 20%;*/
-	margin-left: 1vw;
+	margin-left: 5vw;
+	margin-top: -2.75vw;
 	text-align: left;
 	display: block;
 }
 .sidebar {
 	background-color: black;
-	margin-left: 5px;
+	margin-left: 1vw;
 	top: 10vw;
 	width: 10vw;
 	height: 21vw;
