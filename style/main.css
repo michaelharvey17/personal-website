@@ -4,8 +4,8 @@ body {
 }
 header {
 	background-color: black;
-	border: solid;
-	border-color: green;
+	/*border: solid;
+	border-color: green;*/
 	height: 7.5vw;
 	width: 99%;
 	text-align: right;
@@ -13,6 +13,7 @@ header {
 }
 header h1{
 	text-align: left;
+	font-family: "Ariel", sans-serif;
 	font-size: 4.5vw;
 	font-weight: 100;
 	letter-spacing: 2vw;
@@ -23,45 +24,55 @@ header h1{
 	font-size: 1vw;
 	font-weight: 200;
 	font-family: "Ariel", sans-serif;
-	color: darkgrey;
-	/*width: 20%;*/
+	color: white;
+	letter-spacing: .6vw;
 	margin-left: 5vw;
 	margin-top: -2.75vw;
 	text-align: left;
 	display: block;
+}
+header a{
+	float: right;
+	margin-right: 1vw;
+	margin-top: -7vw;
 }
 .sidebar {
 	background-color: black;
 	margin-left: 1vw;
 	top: 10vw;
 	width: 10vw;
-	height: 21vw;
-	margin-right: 10px;
-	font-size: 25px;
-	border: solid;
+	margin-right: 3vw;
+	font-size: 3vw;
+	border-bottom:groove;
+	border-left:groove;
+	border-right:groove;
 	border-color: green;
-	/*border-radius: 25px;*/
 	position: fixed;
 	text-align: center;
-	padding-top: 2vw;
 }
 .sidebarlink {
 	font-size: 2vw;
-	color: green;
-	border: solid;
-	float: top;
+	color: white;
+	border-top: groove;
+	border-color: green;
 	display: block;
 	background-color: red;
+	padding-top: .5vw;
+	padding-bottom: .5vw;
 }
 .sidebarlink:link {
 	text-decoration: none;
 }
 .sidebarlink:hover {
-	margin: 5px;
+	margin: .1vw;
 }
 .face {
 	float: right;
 	height: 30vw;
 	margin-top: 1vw;
 	margin-right: 10vw;
+}
+footer {
+	text-align: bottom;
+	position: absolute;
 }
