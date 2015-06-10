@@ -1,5 +1,5 @@
 body {
-	background-color: white;
+	background-color: black;
 	margin: 0, auto;
 }
 header {
@@ -36,7 +36,7 @@ header a{
 	margin-right: 1vw;
 	margin-top: -7vw;
 }
-.sidebar {
+nav {
 	background-color: black;
 	margin-left: 1vw;
 	top: 10vw;
@@ -46,17 +46,37 @@ header a{
 	border-bottom:groove;
 	border-left:groove;
 	border-right:groove;
-	border-color: green;
+	border-color: darkslategrey;
 	position: fixed;
 	text-align: center;
 }
+nav ul{
+	list-style: none;
+	margin-top: 0;
+	padding-left: 0;
+	margin-bottom: 0;
+}
+/*.sidebar {
+	background-color: black;
+	margin-left: 1vw;
+	top: 10vw;
+	width: 10vw;
+	margin-right: 3vw;
+	font-size: 3vw;
+	border-bottom:groove;
+	border-left:groove;
+	border-right:groove;
+	border-color: darkslategrey;
+	position: fixed;
+	text-align: center;
+}*/
 .sidebarlink {
 	font-size: 2vw;
 	color: white;
 	border-top: groove;
-	border-color: green;
+	border-color: darkslategrey;
 	display: block;
-	background-color: red;
+	background-color: darkslategrey;
 	padding-top: .5vw;
 	padding-bottom: .5vw;
 }
@@ -68,8 +88,8 @@ header a{
 }
 .face {
 	float: right;
-	height: 30vw;
-	margin-top: 1vw;
+	height: 25vw;
+	margin-top: 3vw;
 	margin-right: 10vw;
 }
 footer {
