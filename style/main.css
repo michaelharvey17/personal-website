@@ -13,13 +13,21 @@ header {
 }
 header h1{
 	float: left;
-	font-size: 4vw;
-	font-weight: 200;
-	letter-spacing: -.3vw;
-	margin-left: 6vw;
-	border: dotted;
+	font-size: 4.5vw;
+	font-weight: 100;
+	letter-spacing: 2vw;
+	margin-left: 3vw;
 	margin-top: .5vw;
-
+}
+.subheader {
+	font-size: 1vw;
+	font-weight: 200;
+	font-family: "Ariel", sans-serif;
+	color: darkgrey;
+	/*width: 20%;*/
+	margin-left: 1vw;
+	text-align: left;
+	display: block;
 }
 .sidebar {
 	background-color: black;
@@ -31,7 +39,7 @@ header h1{
 	font-size: 25px;
 	border: solid;
 	border-color: green;
-	border-radius: 25px;
+	/*border-radius: 25px;*/
 	position: fixed;
 	text-align: center;
 	padding-top: 2vw;
@@ -44,10 +52,15 @@ header h1{
 	display: block;
 	background-color: red;
 }
-a:link {
+.sidebarlink:link {
 	text-decoration: none;
 }
-a:hover {
-	text-decoration: underline;
+.sidebarlink:hover {
 	margin: 5px;
+}
+.face {
+	float: right;
+	height: 30vw;
+	margin-top: 1vw;
+	margin-right: 10vw;
 }
