@@ -72,6 +72,17 @@ nav ul{
 .sidebarlink:hover {
 	margin: .1vw;
 }
+.this-page {
+	font-size: 2vw;
+	color: white;
+	border: groove;
+	border-color: white;
+	display: block;
+	background-color: darkslategrey;
+	padding-top: .5vw;
+	padding-bottom: .5vw;
+	text-decoration: none;
+}
 .face {
 	float: right;
 	height: 25vw;
@@ -110,6 +121,29 @@ nav ul{
 }
 .social-links a:link{
 	text-decoration: none;
+}
+.video {
+	float: right;
+	margin-right: 4vw;
+}
+.video-description {
+	float: right;
+	margin-top: 6vw;
+	margin-right: 8vw;
+	width: 15vw;
+}
+.video-description h1{
+	font-size: 2.5vw;
+	color: white;
+	text-align: center;
+	display: block;
+}
+.video-description ul{
+	font-size: 1.5vw;
+	color: white;
+	text-align: left;
+	display: block;
+}
 }
 footer {
 	text-align: bottom;
