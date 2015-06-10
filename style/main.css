@@ -56,20 +56,6 @@ nav ul{
 	padding-left: 0;
 	margin-bottom: 0;
 }
-/*.sidebar {
-	background-color: black;
-	margin-left: 1vw;
-	top: 10vw;
-	width: 10vw;
-	margin-right: 3vw;
-	font-size: 3vw;
-	border-bottom:groove;
-	border-left:groove;
-	border-right:groove;
-	border-color: darkslategrey;
-	position: fixed;
-	text-align: center;
-}*/
 .sidebarlink {
 	font-size: 2vw;
 	color: white;
@@ -91,6 +77,39 @@ nav ul{
 	height: 25vw;
 	margin-top: 3vw;
 	margin-right: 10vw;
+}
+.home-body {
+	color: white;
+	float: right;
+	width: 40vw;
+	margin-right: 2vw;
+	margin-top: 3vw;
+	font-size: 1.6vw;
+	display: inline-block;
+}
+.page-title {
+	font-size: 4vw;
+	text-align: center;
+	color: white;
+}
+.social-links{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20vw;
+}
+.social-links ul{
+	padding-left: 0;
+	line-height: 4vw;
+}
+.social-links a{
+	list-style: none;
+	color: white;
+	text-align: center;
+	font-size: 2.5vw;
+}
+.social-links a:link{
+	text-decoration: none;
 }
 footer {
 	text-align: bottom;
