@@ -1,25 +1,48 @@
 body {
-	background-color: linen;
+	background-color: white;
+	margin: 0, auto;
+}
+header {
+	background-color: black;
+	border: solid;
+	border-color: green;
+	height: 7.5vw;
+	width: 99%;
+	text-align: right;
+	color: white;
+}
+header h1{
+	float: left;
+	font-size: 4vw;
+	font-weight: 200;
+	letter-spacing: -.3vw;
+	margin-left: 6vw;
+	border: dotted;
+	margin-top: .5vw;
+
 }
 .sidebar {
-	background-color: ivory;
+	background-color: black;
 	margin-left: 5px;
-	top: 10%;
+	top: 10vw;
 	width: 10vw;
-	height: 40vw;
+	height: 21vw;
 	margin-right: 10px;
 	font-size: 25px;
-	border: groove;
-	border-color: ivory;
+	border: solid;
+	border-color: green;
 	border-radius: 25px;
 	position: fixed;
 	text-align: center;
+	padding-top: 2vw;
 }
 .sidebarlink {
-	font-size: 3vw;
+	font-size: 2vw;
 	color: green;
-	border-bottom: solid;
-	float: bottom;
+	border: solid;
+	float: top;
+	display: block;
+	background-color: red;
 }
 a:link {
 	text-decoration: none;
