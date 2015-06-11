@@ -1,54 +1,60 @@
 body {
 	background-color: black;
 	margin: 0, auto;
+	font-family: "BenchNine";
 }
 header {
 	background-color: black;
-	/*border: solid;
-	border-color: green;*/
-	height: 7.5vw;
+	border-bottom: solid;
+	border-color: white;
+	height: 8vw;
 	width: 99%;
 	text-align: right;
 	color: white;
 }
 header h1{
 	text-align: left;
-	font-family: "Ariel", sans-serif;
-	font-size: 4.5vw;
+	font-family: "BenchNine", sans-serif;
+	font-size: 4.7vw;
 	font-weight: 100;
-	letter-spacing: 2vw;
+	letter-spacing: 1.7vw;
 	margin-left: 2.5vw;
 	margin-top: .5vw;
 }
 .subheader {
-	font-size: 1vw;
+	font-size: 1.1vw;
 	font-weight: 200;
-	font-family: "Ariel", sans-serif;
+	font-family: "BenchNine", sans-serif;
 	color: white;
 	letter-spacing: .6vw;
 	margin-left: 5vw;
-	margin-top: -2.75vw;
+	margin-top: -3vw;
 	text-align: left;
 	display: block;
 }
 header a{
 	float: right;
-	margin-right: 1vw;
+	margin-right: 2vw;
 	margin-top: -7vw;
+}
+header a img{
+	height: 3vw;
 }
 nav {
 	background-color: black;
 	margin-left: 1vw;
-	top: 10vw;
+	top: 12vw;
 	width: 10vw;
 	margin-right: 3vw;
-	font-size: 3vw;
+	font-size: 3.2vw;
+	letter-spacing: .2vw;
 	border-bottom:groove;
 	border-left:groove;
 	border-right:groove;
 	border-color: darkslategrey;
 	position: fixed;
 	text-align: center;
+	font-family: "BenchNine", serif;
 }
 nav ul{
 	list-style: none;
@@ -70,7 +76,8 @@ nav ul{
 	text-decoration: none;
 }
 .sidebarlink:hover {
-	margin: .1vw;
+	border: groove;
+	border-color: white;
 }
 .this-page {
 	font-size: 2vw;
@@ -135,8 +142,10 @@ nav ul{
 .video-description h1{
 	font-size: 2.5vw;
 	color: white;
-	text-align: center;
+	text-align: left;
 	display: block;
+	border-bottom: solid;
+	font-weight: 300;
 }
 .video-description ul{
 	font-size: 1.5vw;
