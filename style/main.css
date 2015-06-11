@@ -48,10 +48,8 @@ nav {
 	margin-right: 3vw;
 	font-size: 3.2vw;
 	letter-spacing: .2vw;
-	border-bottom:groove;
-	border-left:groove;
-	border-right:groove;
-	border-color: darkslategrey;
+	/*border:groove;
+	border-color: darkslategrey;*/
 	border-width: .01vw;
 	position: fixed;
 	text-align: center;
@@ -66,8 +64,9 @@ nav ul{
 .sidebarlink {
 	font-size: 2vw;
 	color: white;
-	border-top: groove;
-	border-color: darkslategrey;
+	border: groove;
+	border-color: black;
+	border-width: .2vw;
 	display: block;
 	background-color: darkslategrey;
 	padding-top: .5vw;
@@ -79,6 +78,7 @@ nav ul{
 .sidebarlink:hover {
 	border: groove;
 	border-color: white;
+	border-width: .2vw;
 }
 .this-page {
 	font-size: 2vw;
