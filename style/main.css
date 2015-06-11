@@ -133,6 +133,7 @@ nav ul{
 .video {
 	float: right;
 	margin-right: 4vw;
+	margin-top: 3vw;
 }
 .video-description {
 	float: right;
