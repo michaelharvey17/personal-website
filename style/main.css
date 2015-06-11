@@ -52,6 +52,7 @@ nav {
 	border-left:groove;
 	border-right:groove;
 	border-color: darkslategrey;
+	border-width: .01vw;
 	position: fixed;
 	text-align: center;
 	font-family: "BenchNine", serif;
