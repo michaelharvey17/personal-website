@@ -71,7 +71,7 @@ nav ul{
 	border-color: black;
 	border-width: .2vw;
 	display: block;
-	background-color: #2F4F4F;
+	background-color: steelblue;
 	padding-top: .5vw;
 	padding-bottom: .5vw;
 }
@@ -89,7 +89,7 @@ nav ul{
 	border: groove;
 	border-color: white;
 	display: block;
-	background-color: #2F4F4F;
+	background-color: steelblue;
 	padding-top: .5vw;
 	padding-bottom: .5vw;
 	text-decoration: none;
