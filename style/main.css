@@ -101,9 +101,11 @@ nav ul{
 	margin-right: 10vw;
 }
 .home-body {
+	background-color: grey;
 	color: white;
 	float: right;
 	width: 40vw;
+	height: 35vw;
 	margin-right: 2vw;
 	margin-top: 3vw;
 	font-size: 1.6vw;
@@ -160,6 +162,8 @@ nav ul{
 	display: block;
 }
 footer {
+	clear: both;
+	display: block;
 	margin: 0;
 	bottom: 0;
 	color: white;
