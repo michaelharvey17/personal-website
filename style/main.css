@@ -95,15 +95,20 @@ nav ul{
 	float: right;
 	height: 25vw;
 	margin-top: 3vw;
-	margin-right: 10vw;
+	margin-right: 8vw;
 }
 .home-body {
+	background-color: grey;
 	color: white;
 	float: right;
 	width: 40vw;
-	margin-right: 2vw;
+	height: 25vw;
+	border: groove;
+	border-color: #545454;
+	margin-right: 3vw;
 	margin-top: 3vw;
 	font-size: 1.6vw;
+	padding: 1vw;
 	display: inline-block;
 }
 .page-title {
