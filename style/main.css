@@ -1,10 +1,10 @@
 body {
-	background-color: black;
+	background-color: #272822;
 	margin: 0, auto;
 	font-family: "BenchNine";
 }
 header {
-	background-color: black;
+	background-color: #272822;
 	border-bottom: solid;
 	border-color: white;
 	height: 8vw;
@@ -71,7 +71,7 @@ nav ul{
 	border-color: black;
 	border-width: .2vw;
 	display: block;
-	background-color: steelblue;
+	background-color: #253554;
 	padding-top: .5vw;
 	padding-bottom: .5vw;
 }
@@ -89,7 +89,7 @@ nav ul{
 	border: groove;
 	border-color: white;
 	display: block;
-	background-color: steelblue;
+	background-color: #253554;
 	padding-top: .5vw;
 	padding-bottom: .5vw;
 	text-decoration: none;
