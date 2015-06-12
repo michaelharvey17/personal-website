@@ -160,6 +160,7 @@ nav ul{
 	display: block;
 }
 footer {
+	clear: both;
 	margin: 0;
 	bottom: 0;
 	color: white;
