@@ -44,16 +44,12 @@ header a img{
 	height: 3vw;
 }
 nav {
-	background-color: black;
 	margin-left: 1vw;
 	top: 12vw;
 	width: 10vw;
 	margin-right: 3vw;
 	font-size: 3.2vw;
 	letter-spacing: .2vw;
-	/*border:groove;
-	border-color: darkslategrey;*/
-	border-width: .01vw;
 	position: fixed;
 	text-align: center;
 	font-family: "BenchNine", serif;
@@ -68,7 +64,7 @@ nav ul{
 	font-size: 2vw;
 	color: white;
 	border: groove;
-	border-color: black;
+	border-color: #272822;
 	border-width: .2vw;
 	display: block;
 	background-color: #253554;
@@ -89,6 +85,7 @@ nav ul{
 	border: groove;
 	border-color: white;
 	display: block;
+	border-width: .2vw;
 	background-color: #253554;
 	padding-top: .5vw;
 	padding-bottom: .5vw;
