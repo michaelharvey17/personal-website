@@ -122,6 +122,7 @@ nav ul{
 }
 .social-links ul{
 	padding-left: 0;
+	padding-top: 0;
 	line-height: 4vw;
 }
 .social-links a{
@@ -159,13 +160,15 @@ nav ul{
 	display: block;
 }
 footer {
-	position: absolute;
+	margin: 0;
 	bottom: 0;
 	color: white;
 	width: 100%;
 	margin: 0, auto;
+	padding-top: 5vw;
 }
 footer p{
+	margin-bottom: -3vw;
 	text-align: center;
 	color: white;
 	font-size: 1vw;
