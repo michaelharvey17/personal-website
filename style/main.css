@@ -12,7 +12,8 @@ header {
 	text-align: right;
 	color: white;
 }
-header h1{
+.title {
+	display: block;
 	text-align: left;
 	font-family: "BenchNine", sans-serif;
 	font-size: 4.7vw;
@@ -20,19 +21,21 @@ header h1{
 	letter-spacing: 1.7vw;
 	margin-left: 2.5vw;
 	margin-top: .5vw;
+	text-decoration: none;
+	color: white;
 }
 .subheader {
 	font-size: 1.1vw;
 	font-weight: 200;
+	margin-top: -.2vw;
 	font-family: "BenchNine", sans-serif;
 	color: white;
 	letter-spacing: .6vw;
 	margin-left: 5vw;
-	margin-top: -3vw;
 	text-align: left;
 	display: block;
 }
-header a{
+.facebook{
 	float: right;
 	margin-right: 2vw;
 	margin-top: -7vw;
@@ -68,7 +71,7 @@ nav ul{
 	border-color: black;
 	border-width: .2vw;
 	display: block;
-	background-color: darkslategrey;
+	background-color: #2F4F4F;
 	padding-top: .5vw;
 	padding-bottom: .5vw;
 }
@@ -86,7 +89,7 @@ nav ul{
 	border: groove;
 	border-color: white;
 	display: block;
-	background-color: darkslategrey;
+	background-color: #2F4F4F;
 	padding-top: .5vw;
 	padding-bottom: .5vw;
 	text-decoration: none;
@@ -155,8 +158,15 @@ nav ul{
 	text-align: left;
 	display: block;
 }
-}
 footer {
-	text-align: bottom;
 	position: absolute;
+	bottom: 0;
+	color: white;
+	width: 100%;
+	margin: 0, auto;
+}
+footer p{
+	text-align: center;
+	color: white;
+	font-size: 1vw;
 }
