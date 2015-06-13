@@ -100,13 +100,11 @@ nav ul{
 .home-body {
 	background-color: grey;
 	color: white;
-	float: right;
 	width: 40vw;
 	height: 10vw;
 	border: groove;
 	border-color: #545454;
-	margin-right: 3vw;
-	margin-top: 5vw;
+	margin: 5vw 3vw 0 16vw;
 	font-size: 1.6vw;
 	padding: 1vw;
 	display: inline-block;
