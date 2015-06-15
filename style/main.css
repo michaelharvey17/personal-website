@@ -8,7 +8,7 @@ header {
 	border-bottom: solid;
 	border-color: white;
 	height: 8vw;
-	width: 99%;
+	width: 100%;
 	text-align: right;
 	color: white;
 }
@@ -50,7 +50,7 @@ nav {
 	margin-right: 3vw;
 	font-size: 3.2vw;
 	letter-spacing: .2vw;
-	position: fixed;
+	position: absolute;
 	text-align: center;
 	font-family: "BenchNine", Arial, sans-serif;
 }
