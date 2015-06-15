@@ -129,8 +129,11 @@ nav ul{
 }
 .social-links ul{
 	padding-top: 0;
+	padding-left: 3vw;
 	margin-top: 0;
 	line-height: 4vw;
+	list-style: none;
+	text-align: left
 }
 .social-links a{
 	list-style: none;
