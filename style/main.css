@@ -21,8 +21,13 @@ header {
 	letter-spacing: 1.7vw;
 	margin-left: 2.5vw;
 	margin-top: .5vw;
+	width: 44.75%;
 	text-decoration: none;
 	color: white;
+	transition-duration: 1s;
+}
+.title:hover{
+	color: #D62214;
 }
 .subheader {
 	font-size: 1.1vw;
@@ -42,6 +47,10 @@ header {
 }
 header a img{
 	height: 3vw;
+	transition-duration: .4s;
+}
+header a img:hover{
+	height: 3.4vw;
 }
 nav {
 	margin-left: 1vw;
@@ -73,6 +82,7 @@ nav ul{
 }
 .sidebarlink:link {
 	text-decoration: none;
+	transition-duration: .3s;
 }
 .sidebarlink:hover {
 	border: groove;
@@ -98,7 +108,7 @@ nav ul{
 	margin-right: 8vw;
 }
 .home-body {
-	background-color: grey;
+	background-color: #515251;
 	color: white;
 	width: 40vw;
 	height: 10vw;
@@ -116,7 +126,7 @@ nav ul{
 	margin: 2vw auto;
 }
 .social-links{
-	background-color: grey;
+	background-color: #515251;
 	color: white;
 	margin: 2vw auto;
 	width: 15vw;
@@ -143,6 +153,10 @@ nav ul{
 }
 .social-links a:link{
 	text-decoration: none;
+	transition-duration: .4s;
+}
+.social-links a:hover{
+	font-size: 3vw;
 }
 .video {
 	float: right;
@@ -193,6 +207,7 @@ footer p{
 }
 .writingsamples{
 	float: right;
+	margin-right: 8vw;
 	width: 45vw;
 	display: inline-block;
 
@@ -206,11 +221,27 @@ footer p{
 .pdf {
 	width: 40vw;
 	height: 40vw;
+	margin: 0 2vw;
+}
+.scriptselect {
+	margin: 0 10vw 0 0;
 	float: right;
-	margin: 1vw 2vw 0 0;
+	width: 12vw
+}
+.scriptselect button{
+	width: 14vw;
+	text-align: center;
+	font-size: 1.4vw;
+	height: 5vw;
+	margin-top: 2vw;
+	color: white;
+	background-color: #253554;
+	border-color: white;
+	border-style: groove;
+	letter-spacing: .1vw;
 }
 .construction {
-	background-color: grey;
+	background-color: #515251;
 	color: white;
 	margin: 5vw auto;
 	width: 40vw;
